@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operadores Lógicos</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <main>
+    <h1>Operadores lógicos</h1>
+    <section class="container">
+      <div class="conteudo">
+        <h3>O que são operadores lógicos?</h3>
+        <p>Expressões construídas a partir de operações com valores booleanos.</p>
+        <p>Também retornam um valor booleano.</p>
+        <p>Seguimos os resultados lógicos contidos na Tabela Verdade.</p>
+        <details>
+          <summary>É como uma tabuada</summary>
+          <ul>
+            <li>É uma tabela de resultados.</li>
+            <li>A tabuada mostra o resultado das das multiplicações de diversos números.</li>
+            <li>Os valores booleanos têm a tabela verdade.</li>
+            <li>Mostra o resultado de diversas operações lógicas.</li>
+          </ul>
+        </details>
+
+        <p>Diferente da tabuada, os valores lógicos são apenas dois (True e False)</p>
+        <details>
+          <summary>As operações básicas que temos na programação hoje são 3:</summary>
+          <ul>
+            <li>E (AND)</li>
+            <li>OU (OR)</li>
+            <li>NÃO (NOT)</li>
+          </ul>
+        </details>
+        <p>A tabela verdade é o resultado da combinação dos dois valores booleanos em todas a combinações possíveis</p>
+        <details>
+          <summary>Para simplificar, trabalharemos sempre com expressões de dois termos.</summary>
+          <ul>
+            <li>Já que no caso destas 3 operações, mesmo quando há mais termos, podemos isolar de 2 em 2.</li>
+          </ul>
+        </details>
+        <p>Numa expressão lógica, podemos ter um ou mais operadores lógicos.</p>
+        <p>Cada termo é um valor booleano ou operação que retorne um booleano.</p>
+        <details>
+          <summary class="exemplo">Exemplo 1:</summary>
+          <span> 10 > 4 ou 5 <= 5 </span>
+        </details>
+
+        <details>
+          <summary class="exemplo">Exemplo 2:</summary>
+          <span> 0 >= 0 ou 5 > 6 e 1 > 0 </span>
+        </details>
+
+        <table>
+          <tr>
+            <th>Conectivo</th>
+            <th>Símbolo</th>
+            <th>Operação lógica</th>
+            <th class="row">Valor lógico</th>
+          </tr>
+
+          <tr>
+            <td>Não (NOT)</td>
+            <td>!</td>
+            <td>Negação</td>
+            <td class="row">Terá valor falso quando a proposição for verdadeira e vice-versa</td>
+          </tr>
+
+          <tr>
+            <td>E (AND)</td>
+            <td>&&</td>
+            <td>Conjunção</td>
+            <td class="row">Será verdadeiro somente quando todas as proposições forem verdadeiras.</td>
+          </tr>
+
+          <tr>
+            <td>OU (OR)</td>
+            <td>||</td>
+            <td>disjunção</td>
+            <td class="row">Será verdadeira quando pelo menos uma das proposições for verdadeira.</td>
+          </tr>
+        </table>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_operators" target="_blank">Saiba Mais</a>
+      </div>
+    </section>
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+</html>
