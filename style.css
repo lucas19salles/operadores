@@ -107,8 +107,9 @@ a {
 }
 
 @media (max-width: 600px) {
-  table {
-    width: 280px;
+  table th,
+  table td {
+    padding: 4px;
   }
 
   table th {
