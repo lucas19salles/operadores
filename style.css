@@ -27,8 +27,8 @@ h3 {
 .container {
   background: #761259;
   border-radius: 8px;
-  width: 70vw;
-  max-width: 100%;
+  max-width: 400px;
+  width: 900px;
   margin: 0 auto;
   padding: 40px;
 }
@@ -113,6 +113,10 @@ a {
 
 .tabela-top {
   margin-top: 20px;
+}
+
+.area-table {
+  width: 300px;
 }
 
 @media (max-width: 600px) {
